@@ -189,7 +189,8 @@ color: var(--NAVY-BLUE, #2E2F42);
         text-transform: uppercase;
 }
 .logo-studio-footer {
-    color:#F4F4FD
+
+color:#F4F4FD
 }
 .footer-text {
     color: var(--CLOUD, #F4F4FD);    
