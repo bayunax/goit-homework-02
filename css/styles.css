@@ -9,13 +9,15 @@ button {
 }
 body {
 font-family: 'Roboto' ,  sans-serif;
+color: #434455;
+background-color: #FFFFFF;
 }
 .page-logo {
     color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
+        font-family: Raleway , sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         /* 116.667% */
         letter-spacing: 0.03em;
         text-transform: uppercase;
@@ -37,7 +39,9 @@ font-family: 'Roboto' ,  sans-serif;
 .menu-link:focus {
     color: #404BBF
 }
-
+.font-address {
+    font-style: normal;
+}
 .adress-link {
     color: var(--SLATE, #434455);
     
@@ -68,6 +72,7 @@ color: var(--WHITE, #FFF);
 }
 .but-service {
 color: var(--WHITE, #FFF);
+background-color: #4D5AE5;
 
     /* Button Text */
     font-size: 16px;
@@ -76,9 +81,12 @@ color: var(--WHITE, #FFF);
     /* 150% */
     letter-spacing: 0.04em;
 }
-.but-service:hover {
-    color:#404BBF
+.but-service:hover,
+.but-service:focus {
+    color:#ffffff;
+    background-color: #404BBF;
 }
+
 .h3-text-2s {
     color: var(--NAVY-BLUE, #2E2F42);
     
@@ -97,6 +105,9 @@ color: var(--WHITE, #FFF);
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
+}
+.third-section {
+    background-color: #F4F4FD;
 }
 .h2-text-3s {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -167,7 +178,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 .footer-logo {
     color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
+        font-family: Raleway , sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.16;
